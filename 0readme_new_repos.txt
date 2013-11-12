@@ -6,11 +6,12 @@ BINARIES EXCLUDED FROM IGNORE:
 workspace\base\iglib\external\MathNetNumerics\src\packages\zlib.net.1.0.3.0\lib\
   for zlib.net.dll
 workspace\base\iglib\externalextended\ActiViz\bin\
-  for all, especially 
+  for all, especially: 
     Kitware.VTK.dll
     Kitware.mummy.Runtime.dll
     Kitware.mummy.Runtime.Unmanaged.dll
-
+workspace\base\shelldev\0guests\marko_petek\external\ bin\
+  for Microsoft.Solver.Foundation.dll
 
 
 NEW REPOS:
