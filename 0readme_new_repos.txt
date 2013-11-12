@@ -1,4 +1,18 @@
 
+INSTRUCTIONS FOR MOVING REPOSITORIES
+
+BINARIES EXCLUDED FROM IGNORE:
+
+workspace\base\iglib\external\MathNetNumerics\src\packages\zlib.net.1.0.3.0\lib\
+  for zlib.net.dll
+workspace\base\iglib\externalextended\ActiViz\bin\
+  for all, especially 
+    Kitware.VTK.dll
+    Kitware.mummy.Runtime.dll
+    Kitware.mummy.Runtime.Unmanaged.dll
+
+
+
 NEW REPOS:
 
 ig_base/base/trunk/
