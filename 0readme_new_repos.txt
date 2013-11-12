@@ -12,7 +12,8 @@ workspace\base\iglib\externalextended\ActiViz\bin\
     Kitware.mummy.Runtime.Unmanaged.dll
 workspace\base\shelldev\0guests\marko_petek\external\ bin\
   for Microsoft.Solver.Foundation.dll
-
+workspace\bin\projects_dll\00DllSource_Shell\bin\Debug
+  all dll-s in debug, for linking by 3rd party software
 
 NEW REPOS:
 
