@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_igform", "..\igtest\iglib_form\test_igform.csproj", "{7526D4C2-A15D-4B6D-A977-6BF3387310C2}"
 EndProject
@@ -188,6 +188,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShell", "..\shelldev\0guests\ferdo\Guest_IGShell\Guest_IGShell.csproj", "{39E26C5F-2F65-4754-A85D-6159D0940427}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics_2_6_1", "..\iglib\external\MathNetNumerics_2_6_1\src\Numerics\Numerics_2_6_1.csproj", "{8A0B0FD4-2315-499B-B3C9-544A4686414D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_numerics_igor", "..\igsandbox\numerics\test_numerics_igor\test_numerics_igor\test_numerics_igor.csproj", "{0F096209-B487-4DE8-ABCD-D85D64573337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2090,6 +2092,26 @@ Global
 		{8A0B0FD4-2315-499B-B3C9-544A4686414D}.Release-Signed|Mixed Platforms.ActiveCfg = Release-Signed|Any CPU
 		{8A0B0FD4-2315-499B-B3C9-544A4686414D}.Release-Signed|Mixed Platforms.Build.0 = Release-Signed|Any CPU
 		{8A0B0FD4-2315-499B-B3C9-544A4686414D}.Release-Signed|x86.ActiveCfg = Release-Signed|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.ajgor|Any CPU.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.ajgor|Any CPU.Build.0 = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.ajgor|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.ajgor|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.ajgor|x86.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{0F096209-B487-4DE8-ABCD-D85D64573337}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
