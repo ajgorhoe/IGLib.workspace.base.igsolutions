@@ -80,10 +80,19 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNeural", "..\iglib\extensions\ann\LibNeural\LibNeural.csproj", "{FBF3C5F7-A0CA-46A1-8973-7689FFFAAEBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimTestApp", "..\..\develop\simulationtools\SimTestApp\SimTestApp.csproj", "{E610D786-CC3C-4DEF-A094-8B85A7F755BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimTestIgor", "..\..\develop\simulationtools\SimTestIgor\SimTestIgor.csproj", "{E2318F70-E9B8-4EE5-9047-2B81AA6944F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimTestTadej", "..\..\develop\simulationtools\SimTestTadej\SimTestTadej.csproj", "{A898C756-327B-4130-B590-61A99A56482E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForge.Controls", "..\iglib\externalextended\ann\aforge.net\Sources\Controls\AForge.Controls.csproj", "{4CCA6844-9102-4A3B-8148-EA3D359B2586}"
 EndProject
@@ -132,6 +141,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_Marko_Petek_App", "..\shelldev\0guests\marko_petek\Guest_Marko_Petek_App\Guest_Marko_Petek_App.csproj", "{57A4DF80-F29C-45A2-B70E-CAFFCE3D46A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_Ferdo_App_Old", "..\..\develop\shell\0guests\ferdo\Guest_Ferdo_App\Guest_Ferdo_App_Old.csproj", "{E2F24360-8792-4AD8-BC55-0EBA564262EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCommonIT", "..\shelldev\lib\LibCommon\LibCommonIT.csproj", "{0E2E58A9-DD4B-4FAF-87E6-7B0F06C53AFB}"
 EndProject
@@ -146,14 +158,29 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibShellExtIT", "..\shelldev\lib\extended\LibShellExt\LibShellExtIT.csproj", "{9BF93378-2777-4EF4-B4BF-B5760F385DBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCommon", "..\..\develop\shell\lib\LibCommon\LibCommon.csproj", "{675A70A5-3FC7-4534-9B62-5994EA542E2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibOpt", "..\..\develop\shell\lib\LibOpt\LibOpt.csproj", "{52C69145-D10F-4CD3-9430-5E07F740D818}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibShellExt", "..\..\develop\shell\lib\extended\LibShellExt\LibShellExt.csproj", "{B9082F77-AB06-4D52-88A2-6D88B5C455CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNeuralExtForms", "..\..\develop\shell\lib\extended\LibNeuralExtForms\LibNeuralExtForms.csproj", "{EDA97ADD-CB4E-4A43-B682-5B1CA16CC2D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNeuralExt", "..\..\develop\shell\lib\extended\LibNeuralExt\LibNeuralExt.csproj", "{61824B6E-7E94-4A5D-BC3B-8DCD3C012EC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtShellLibIT", "..\shelldev\extensions\ExtShellLibIT\ExtShellLibIT.csproj", "{7A513639-A86E-4630-BEFD-E1BCC052050C}"
 EndProject
