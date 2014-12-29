@@ -242,6 +242,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibraries", "Extern
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibrariesExtended", "ExternalLibrariesExtended", "{6A8F176C-91CF-46E8-859A-E284A1B985C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{1F0C051D-3743-4B09-BD83-3CB6DE61FBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNumeric", "..\unittests\TestNumeric\TestNumeric.csproj", "{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ajgor|Any CPU = ajgor|Any CPU
@@ -2223,6 +2227,26 @@ Global
 		{1138D0C9-D73C-40C6-B669-B95145378DDA}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1138D0C9-D73C-40C6-B669-B95145378DDA}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
 		{1138D0C9-D73C-40C6-B669-B95145378DDA}.Release-Signed|x86.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Any CPU.Build.0 = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Mixed Platforms.Build.0 = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|x86.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|x86.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2280,6 +2304,7 @@ Global
 		{40B779CD-8407-4D15-95DD-D3A7A0D6AAC0} = {BCB5A1D2-FB21-46A7-8D12-DD5FF7517F10}
 		{39A7768D-2225-4A2A-AAD0-CECD53BB16AB} = {BCB5A1D2-FB21-46A7-8D12-DD5FF7517F10}
 		{1138D0C9-D73C-40C6-B669-B95145378DDA} = {BCB5A1D2-FB21-46A7-8D12-DD5FF7517F10}
+		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE} = {1F0C051D-3743-4B09-BD83-3CB6DE61FBFE}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ..\igtest\iglib_form\test_igform.csproj
