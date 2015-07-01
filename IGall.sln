@@ -220,15 +220,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShell", "..\shellde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics_2_6_1", "..\iglib\external\MathNetNumerics_2_6_1\src\Numerics\Numerics_2_6_1.csproj", "{8A0B0FD4-2315-499B-B3C9-544A4686414D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_numerics_igor", "..\igsandbox\numerics\test_numerics_igor\test_numerics_igor\test_numerics_igor.csproj", "{0F096209-B487-4DE8-ABCD-D85D64573337}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_numerics_igor", "..\igtest\numerics\test_numerics_igor\test_numerics_igor\test_numerics_igor.csproj", "{0F096209-B487-4DE8-ABCD-D85D64573337}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGSandBox", "IGSandBox", "{BCB5A1D2-FB21-46A7-8D12-DD5FF7517F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_alglib_igor", "..\igsandbox\numerics\test_numerics_igor\test_alglib_igor\test_alglib_igor.csproj", "{40B779CD-8407-4D15-95DD-D3A7A0D6AAC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_alglib_igor", "..\igtest\numerics\test_numerics_igor\test_alglib_igor\test_alglib_igor.csproj", "{40B779CD-8407-4D15-95DD-D3A7A0D6AAC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_ludecomp_McCaffrey", "..\igsandbox\numerics\McCaffreyMatrix1212\ludecomp_McCaffrey_original\test_ludecomp_McCaffrey.csproj", "{39A7768D-2225-4A2A-AAD0-CECD53BB16AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_ludecomp_McCaffrey", "..\igtest\numerics\McCaffreyMatrix1212\ludecomp_McCaffrey_original\test_ludecomp_McCaffrey.csproj", "{39A7768D-2225-4A2A-AAD0-CECD53BB16AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgLibLibrary", "..\igsandbox\numerics\alglib_0.8.2\src\AlgLibLibrary.csproj", "{1138D0C9-D73C-40C6-B669-B95145378DDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgLibLibrary", "..\igtest\numerics\alglib_0.8.2\src\AlgLibLibrary.csproj", "{1138D0C9-D73C-40C6-B669-B95145378DDA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevelopCobik", "DevelopCobik", "{AB30B056-2894-4EAC-AF23-53E136160F1F}"
 EndProject
