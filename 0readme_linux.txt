@@ -3,8 +3,12 @@
 Running projects with command-line arguments and in custom directory: 
 1. Right-click on Project, choose Options.
 2. Choose Run/General, set parameters.
-3. Be careful that parameters are set for ALL combinations of Configuration/Platform that will be used.
-4. If you also need to set a custom working directory, choose Run/Custom Commands, then whith the instead of (select a project operation), select "Execute", then set parameters. Again, do it for All combinations of Configuratio/Platform.
+3. Be careful that parameters are set for ALL combinations of 
+  Configuration/Platform that will be used.
+4. If you also need to set a custom working directory, choose Run/Custom 
+  Commands, then whith the instead of (select a project operation), select 
+  "Execute", then set parameters. Again, do it for All combinations of 
+  Configuratio/Platform.
 
 
 ============ 
