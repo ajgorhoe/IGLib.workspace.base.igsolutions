@@ -9,6 +9,9 @@ Running projects with command-line arguments and in custom directory:
   Commands, then whith the instead of (select a project operation), select 
   "Execute", then set parameters. Again, do it for All combinations of 
   Configuratio/Platform.
+  In "Command" box, write $(TargetFile) arg1 arg2 ...
+  Check "Run on External Console" (Mono's console is corrupted and it
+  feeds newlines infinitely)
 
 
 ============ 
