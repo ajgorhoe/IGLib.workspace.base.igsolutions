@@ -12,6 +12,8 @@ Running projects with command-line arguments and in custom directory:
   In "Command" box, write $(TargetFile) arg1 arg2 ...
   Check "Run on External Console" (Mono's console is corrupted and it
   feeds newlines infinitely)
+  In working directory, there should be two levels less (remove "../../")
+  because Mono's default is project directory while VS default is output dir.
 
 
 ============ 
