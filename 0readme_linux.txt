@@ -1,4 +1,35 @@
 
+============ 
+Solution for the folloving MonoDevelop error (e.g. while compiling Jint lib.):
+/usr/lib/mono/4.5/Microsoft.Common.targets: Error: PCL Reference Assemblies not installed. (Jint)
+
+Obviously, the problem is that Microsoft Portable Class Libraries (PCL) are not
+available for installation with Mono. 
+
+Workaround may be to copy PCL from
+   C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\
+to 
+  /usr/lib/mono/xbuild-frameworks/
+
+
+Some references:
+http://stackoverflow.com/questions/27805245/how-to-solve-xbuild-netportable-version-v4-0-profile-profile344-issue-on-linu
+http://www.mono-project.com/docs/getting-started/install/linux/
+
+This does not work (package referenceassemblies-pcl could not be found while 
+others are OK): 
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys
+A7E0328081BFF6A14DA29AA6A19B38D3D831EF
+
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee
+/etc/apt/sources.list.d/mono-xamarin.list
+
+sudo apt-get update
+sudo apt-get install  mono-devel
+sudo apt-get install  mono-complete
+sudo apt-get install  referenceassemblies-pcl
+
 
 
 
