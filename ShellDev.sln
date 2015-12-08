@@ -1122,7 +1122,7 @@ Global
 		{0E2E58A9-DD4B-4FAF-87E6-7B0F06C53AFB} = {0D578A57-C0BE-4324-8216-E4516A3055A8}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = 0guests\ferdo\Guest_IGShell\Guest_IGShell.csproj
+		StartupItem = ..\shelldev\0guests\ferdo\Guest_IGShell\Guest_IGShell.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
