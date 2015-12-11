@@ -153,6 +153,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSourceOriginal", "..\..\bin\projects_dll\source\00DllSourceOriginal\00DllSourceOriginal.csproj", "{AA2E9C74-61EB-4AF7-8703-2691B49765E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_Generator_Shell", "..\..\bin\projects_dll\00DllSource_Shell\00DllSource_Generator_Shell.csproj", "{4941848E-185B-44BD-ACDE-E05F26506804}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA2E9C74-61EB-4AF7-8703-2691B49765E9} = {AA2E9C74-61EB-4AF7-8703-2691B49765E9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_TestProject_Shell", "..\..\bin\projects_dll\00DllSource_Shell\00DllSource_TestProject_Shell.csproj", "{25C24FFF-F073-4FA4-B02E-902A0DB615A1}"
 EndProject
