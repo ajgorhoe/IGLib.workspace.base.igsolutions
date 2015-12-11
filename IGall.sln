@@ -107,6 +107,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtShellAppExt", "..\..\dev
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtTestIgor", "..\..\develop\shell\extensions\ExtTestIgor\ExtTestIgor.csproj", "{B183F620-006D-4EE2-A58E-7E2394FC4FD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4941848E-185B-44BD-ACDE-E05F26506804} = {4941848E-185B-44BD-ACDE-E05F26506804}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtTestTadej", "..\..\develop\shell\extensions\ExtTestTadej\ExtTestTadej.csproj", "{13B756C5-F24B-4875-B0D5-EB8BD0CD6B73}"
 	ProjectSection(ProjectDependencies) = postProject
