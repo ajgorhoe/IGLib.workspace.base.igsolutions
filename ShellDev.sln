@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1  
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igform", "..\iglib\igforms\igform.csproj", "{50235FC8-A69D-47AE-A557-6518B35CC7C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporterMsg", "..\iglib\reportermsg\ReporterMsg\ReporterMsg.csproj", "{AC130D8D-D656-4EA6-A940-3C261F589ACE}"
@@ -118,8 +118,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExampleNunit", "..\unittests\TestExampleNunit\TestExampleNunit.csproj", "{EED81351-FA28-4463-8FB0-4D657C2289D5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNumeric", "..\unittests\TestNumeric\TestNumeric.csproj", "{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtil", "..\unittests\TestUtil\TestUtil.csproj", "{0751CBC9-A68C-4B8F-B6B0-F69F6773F8FD}"
 EndProject
@@ -1357,36 +1355,6 @@ Global
 		{EED81351-FA28-4463-8FB0-4D657C2289D5}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
 		{EED81351-FA28-4463-8FB0-4D657C2289D5}.Release-Signed|x86.ActiveCfg = Release|x86
 		{EED81351-FA28-4463-8FB0-4D657C2289D5}.Release-Signed|x86.Build.0 = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Any CPU.ActiveCfg = Release|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Any CPU.Build.0 = Release|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Mixed Platforms.ActiveCfg = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|Mixed Platforms.Build.0 = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|x86.ActiveCfg = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.ajgor|x86.Build.0 = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|x86.ActiveCfg = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Debug|x86.Build.0 = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.DebugLinux|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.DebugLinux|Any CPU.Build.0 = Debug|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.DebugLinux|Mixed Platforms.ActiveCfg = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.DebugLinux|Mixed Platforms.Build.0 = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.DebugLinux|x86.ActiveCfg = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.DebugLinux|x86.Build.0 = Debug|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|Mixed Platforms.Build.0 = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|x86.ActiveCfg = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release|x86.Build.0 = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Mixed Platforms.ActiveCfg = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|x86.ActiveCfg = Release|x86
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE}.Release-Signed|x86.Build.0 = Release|x86
 		{0751CBC9-A68C-4B8F-B6B0-F69F6773F8FD}.ajgor|Any CPU.ActiveCfg = Release|Any CPU
 		{0751CBC9-A68C-4B8F-B6B0-F69F6773F8FD}.ajgor|Any CPU.Build.0 = Release|Any CPU
 		{0751CBC9-A68C-4B8F-B6B0-F69F6773F8FD}.ajgor|Mixed Platforms.ActiveCfg = Release|x86
@@ -1463,7 +1431,6 @@ Global
 		{0E2E58A9-DD4B-4FAF-87E6-7B0F06C53AFB} = {0D578A57-C0BE-4324-8216-E4516A3055A8}
 		{2DCF78A9-439D-4C0D-BB98-A364D8C61816} = {3AAC5D92-78CC-44CF-BC7E-08EF13C26BB8}
 		{EED81351-FA28-4463-8FB0-4D657C2289D5} = {438F7DA2-ECCF-4C12-84EC-D216AC10CF32}
-		{ADB91E4C-2A67-4D8E-90BA-825EEB5E9DCE} = {438F7DA2-ECCF-4C12-84EC-D216AC10CF32}
 		{0751CBC9-A68C-4B8F-B6B0-F69F6773F8FD} = {438F7DA2-ECCF-4C12-84EC-D216AC10CF32}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
