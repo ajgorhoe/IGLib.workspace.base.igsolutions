@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1 
+MinimumVisualStudioVersion = 10.0.40219.1  
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igform", "..\iglib\igforms\igform.csproj", "{50235FC8-A69D-47AE-A557-6518B35CC7C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporterMsg", "..\iglib\reportermsg\ReporterMsg\ReporterMsg.csproj", "{AC130D8D-D656-4EA6-A940-3C261F589ACE}"
