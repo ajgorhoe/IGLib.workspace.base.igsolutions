@@ -223,6 +223,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuronDotNet", "..\shelldev
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{B2CDC61D-777A-45A1-999E-419270CF55E2}"
 	ProjectSection(SolutionItems) = preProject
+		..\unittests\0readme_unittests.txt = ..\unittests\0readme_unittests.txt
 		..\unittests\ig_unittests.nunit = ..\unittests\ig_unittests.nunit
 	EndProjectSection
 EndProject
