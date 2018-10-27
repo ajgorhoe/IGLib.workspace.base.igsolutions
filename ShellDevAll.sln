@@ -370,6 +370,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShellBin", "..\shelldev
 		{39E26C5F-2F65-4754-A85D-6159D0940427} = {39E26C5F-2F65-4754-A85D-6159D0940427}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtAppAnnApp_OLD", "..\shelldev\extensions\ExtAppAnnApp_OLD\ExtAppAnnApp_OLD.csproj", "{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ajgor|Any CPU = ajgor|Any CPU
@@ -3318,6 +3320,38 @@ Global
 		{EBAC6423-D395-4E14-B416-3C3A25FD628D}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{EBAC6423-D395-4E14-B416-3C3A25FD628D}.Release-Signed|x86.ActiveCfg = Release|x86
 		{EBAC6423-D395-4E14-B416-3C3A25FD628D}.Release-Signed|x86.Build.0 = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|Any CPU.Build.0 = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|Mixed Platforms.ActiveCfg = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|Mixed Platforms.Build.0 = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|x64.ActiveCfg = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|x64.Build.0 = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|x86.ActiveCfg = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.ajgor|x86.Build.0 = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|x64.Build.0 = Debug|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|x86.ActiveCfg = Debug|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Debug|x86.Build.0 = Debug|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|x64.ActiveCfg = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|x64.Build.0 = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|x86.ActiveCfg = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release|x86.Build.0 = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|Mixed Platforms.ActiveCfg = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|x86.ActiveCfg = Release|x86
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C}.Release-Signed|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3438,6 +3472,10 @@ Global
 		{952C2BC3-8B12-4BB9-B36B-75D84077507C} = {F41CD7CB-C373-41C4-9F9F-AE46C3BE9F92}
 		{3C8E517E-D7D7-4740-9DD5-DCFADA5F34C2} = {F41CD7CB-C373-41C4-9F9F-AE46C3BE9F92}
 		{EBAC6423-D395-4E14-B416-3C3A25FD628D} = {F41CD7CB-C373-41C4-9F9F-AE46C3BE9F92}
+		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C} = {A4287905-2404-41E9-956B-00CED7B54FC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ..\shelldev\0guests\ferdo\IGLibShell\IGLibShell.csproj
