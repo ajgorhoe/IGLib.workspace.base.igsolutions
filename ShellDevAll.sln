@@ -374,6 +374,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtAppAnnApp_OLD", "..\shel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestQuick", "..\unittests\Guest_IGTestQuick\Guest_IGTestQuick.csproj", "{F6BE00B5-8C75-4F8A-A4C6-C510A7AFD8B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExampleNunitNew", "..\unittests\TestExampleNunitNew\TestExampleNunitNew.csproj", "{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ajgor|Any CPU = ajgor|Any CPU
@@ -3386,6 +3388,38 @@ Global
 		{F6BE00B5-8C75-4F8A-A4C6-C510A7AFD8B3}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{F6BE00B5-8C75-4F8A-A4C6-C510A7AFD8B3}.Release-Signed|x86.ActiveCfg = Release|x86
 		{F6BE00B5-8C75-4F8A-A4C6-C510A7AFD8B3}.Release-Signed|x86.Build.0 = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|Any CPU.ActiveCfg = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|Any CPU.Build.0 = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|Mixed Platforms.ActiveCfg = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|Mixed Platforms.Build.0 = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|x64.ActiveCfg = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|x64.Build.0 = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|x86.ActiveCfg = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.ajgor|x86.Build.0 = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|x64.Build.0 = Debug|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|x86.ActiveCfg = Debug|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Debug|x86.Build.0 = Debug|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|x64.Build.0 = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|x86.ActiveCfg = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release|x86.Build.0 = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|Mixed Platforms.ActiveCfg = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|x86.ActiveCfg = Release|x86
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC}.Release-Signed|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3507,6 +3541,7 @@ Global
 		{3C8E517E-D7D7-4740-9DD5-DCFADA5F34C2} = {F41CD7CB-C373-41C4-9F9F-AE46C3BE9F92}
 		{EBAC6423-D395-4E14-B416-3C3A25FD628D} = {F41CD7CB-C373-41C4-9F9F-AE46C3BE9F92}
 		{9D2DF9D8-06E5-4AB6-BC2C-54CFE9D8392C} = {A4287905-2404-41E9-956B-00CED7B54FC8}
+		{AF53556C-4A9E-461B-8DA8-9F6BFD276BEC} = {B2CDC61D-777A-45A1-999E-419270CF55E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
