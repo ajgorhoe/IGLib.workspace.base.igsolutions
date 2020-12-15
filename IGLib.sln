@@ -97,10 +97,19 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShell", "..\shelldev\igshell\Applications\IGLibAppExternal\Guest_IGShell.csproj", "{9C017818-25AA-49B8-8E72-5C7E5F8C7EB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashFormBin", "..\shelldev\igshell\Applications\IGLibAppExternal\HashFormBin.csproj", "{A5568DA2-ACE0-478F-9D01-A9EA6A9CC4AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39E26C5F-2F65-4754-A85D-6159D0940427} = {39E26C5F-2F65-4754-A85D-6159D0940427}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShellBin", "..\shelldev\igshell\Applications\IGLibAppExternal\HashShellBin.csproj", "{4A405975-BCB5-498A-A3B3-E6A0EFCE2059}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39E26C5F-2F65-4754-A85D-6159D0940427} = {39E26C5F-2F65-4754-A85D-6159D0940427}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShellBin", "..\shelldev\igshell\Applications\IGLibAppExternal\Guest_IGShellBin.csproj", "{A160FF23-9AA4-4B81-BCB3-837A2AA750DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39E26C5F-2F65-4754-A85D-6159D0940427} = {39E26C5F-2F65-4754-A85D-6159D0940427}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
