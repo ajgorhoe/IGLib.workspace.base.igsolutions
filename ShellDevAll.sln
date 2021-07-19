@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igplot3d", "..\iglib\extens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iglib_ext", "..\iglib\extensions\iglibext\iglib_ext.csproj", "{4E4B240A-6994-4747-BB6C-0CC0D2578D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iglib_base", "..\iglib\igbase\iglib_base.csproj", "{0AB31A6E-E0DE-4F4E-8D0E-7AD60AE65E26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLib", "..\iglib\igbase\IGLib.csproj", "{0AB31A6E-E0DE-4F4E-8D0E-7AD60AE65E26}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00Binaries", "00Binaries", "{BB94B3C5-27D9-4F34-868D-CA8CDA462B37}"
 EndProject
