@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportMsg_Examples", "..\ig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporterMsg_Forms", "..\iglib\reportermsg\ReporterMsg_Forms\ReporterMsg_Forms.csproj", "{BD0BC991-E9E5-419E-9172-3B0C00210018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igplot2d", "..\iglib\extensions\igplot2d\plot2d\igplot2d.csproj", "{C9A09DBC-B304-42DF-9CEE-6BA0E856ABC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibPlot2D", "..\iglib\extensions\igplot2d\plot2d\IGLibPlot2D.csproj", "{C9A09DBC-B304-42DF-9CEE-6BA0E856ABC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igplot3d", "..\iglib\extensions\igplot3d\plot3d\igplot3d.csproj", "{8BBF5C58-2562-4E9B-ACB8-3F3A3B031F62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibPlot3D", "..\iglib\extensions\igplot3d\plot3d\IGLibPlot3D.csproj", "{8BBF5C58-2562-4E9B-ACB8-3F3A3B031F62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibExt", "..\iglib\extensions\iglibext\IGLibExt.csproj", "{4E4B240A-6994-4747-BB6C-0CC0D2578D04}"
 EndProject
@@ -301,7 +301,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtil_MSTest", "..\unitt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNumeric_MSTest", "..\unittests\MSTests\TestNumeric\TestNumeric_MSTest.csproj", "{CDE73133-EFF6-4AC6-8907-A6DD495CA981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igneural", "..\iglib\extensions\iglibneural\neural\igneural.csproj", "{FBF3C5F7-A0CA-46A1-8973-7689FFFAAEBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeural", "..\iglib\extensions\iglibneural\neural\IGLibNeural.csproj", "{FBF3C5F7-A0CA-46A1-8973-7689FFFAAEBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestCopy", "..\unittests\Guest_IGTestCopy\Guest_IGTestCopy.csproj", "{9B8676F4-A6DB-4E27-A423-B4E417C8341B}"
 EndProject
@@ -333,7 +333,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShellBin", "..\shelldev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "..\iglib\external\mathnet-numerics\src\Numerics\Numerics.csproj", "{F5FE0255-4C94-4689-87B3-964FCD8571F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "igneural_ext", "..\iglib\extensions\iglibneural\neural_ext\igneural_ext.csproj", "{DA348BA9-F182-4730-B238-6220D9917A60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeuralExt", "..\iglib\extensions\iglibneural\neural_ext\IGLibNeuralExt.csproj", "{DA348BA9-F182-4730-B238-6220D9917A60}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph", "..\iglib\external\ZedGraph\source\ZedGraph\ZedGraph.csproj", "{638A6DAA-EDAD-43E8-906E-99EB91C45B13}"
 EndProject
