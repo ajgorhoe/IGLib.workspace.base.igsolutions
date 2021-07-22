@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportMsg_Examples", "..\ig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporterMsg_Forms", "..\iglib\reportermsg\ReporterMsg_Forms\ReporterMsg_Forms.csproj", "{BD0BC991-E9E5-419E-9172-3B0C00210018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibPlot2D", "..\iglib\extensions\igplot2d\plot2d\IGLibPlot2D.csproj", "{C9A09DBC-B304-42DF-9CEE-6BA0E856ABC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibPlot2D", "..\iglib\extensions\igplot2d\plot2d\IGLibPlot2D.csproj", "{C9A09DBC-B304-42DF-9CEE-6BA0E856ABC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibPlot3D", "..\iglib\extensions\igplot3d\plot3d\IGLibPlot3D.csproj", "{8BBF5C58-2562-4E9B-ACB8-3F3A3B031F62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibPlot3D", "..\iglib\extensions\igplot3d\plot3d\IGLibPlot3D.csproj", "{8BBF5C58-2562-4E9B-ACB8-3F3A3B031F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibExt", "..\iglib\extensions\iglibext\IGLibExt.csproj", "{4E4B240A-6994-4747-BB6C-0CC0D2578D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibExt", "..\iglib\extensions\iglibext\IGLibExt.csproj", "{4E4B240A-6994-4747-BB6C-0CC0D2578D04}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib", "..\iglib\igbase\IGLib.csproj", "{0AB31A6E-E0DE-4F4E-8D0E-7AD60AE65E26}"
 EndProject
@@ -203,13 +203,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtil", "..\unittests\TestUtil\TestUtil.csproj", "{0751CBC9-A68C-4B8F-B6B0-F69F6773F8FD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevelopIgorTadej", "DevelopIgorTadej", "{97B15A20-F809-4448-B45C-A3D7F9FF75EE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevelopIgorExtendedApplications", "DevelopIgorExtendedApplications", "{97B15A20-F809-4448-B45C-A3D7F9FF75EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNeuralExtIT", "..\shelldev\lib\extended\LibNeuralExt\LibNeuralExtIT.csproj", "{6BF0099C-05A5-4A72-9634-CD402F60B52B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeuralExtSpecial", "..\shelldev\lib\extended\LibNeuralExt\IGLibNeuralExtSpecial.csproj", "{6BF0099C-05A5-4A72-9634-CD402F60B52B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibNeuralExtFormsIT", "..\shelldev\lib\extended\LibNeuralExtForms\LibNeuralExtFormsIT.csproj", "{B40A1C81-70FD-42A6-A154-755E15AD0BCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeuralExtFormsSpecial", "..\shelldev\lib\extended\LibNeuralExtForms\IGLibNeuralExtFormsSpecial.csproj", "{B40A1C81-70FD-42A6-A154-755E15AD0BCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibShellExtIT", "..\shelldev\lib\extended\LibShellExt\LibShellExtIT.csproj", "{9BF93378-2777-4EF4-B4BF-B5760F385DBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibShellExtSpecial", "..\shelldev\lib\extended\LibShellExt\IGLibShellExtSpecial.csproj", "{9BF93378-2777-4EF4-B4BF-B5760F385DBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibShellExtExtIT", "..\shelldev\extensions\ExtShellLibIT\LibShellExtExtIT.csproj", "{7A513639-A86E-4630-BEFD-E1BCC052050C}"
 EndProject
@@ -301,7 +301,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUtil_MSTest", "..\unitt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNumeric_MSTest", "..\unittests\MSTests\TestNumeric\TestNumeric_MSTest.csproj", "{CDE73133-EFF6-4AC6-8907-A6DD495CA981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeural", "..\iglib\extensions\iglibneural\neural\IGLibNeural.csproj", "{FBF3C5F7-A0CA-46A1-8973-7689FFFAAEBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibNeural", "..\iglib\extensions\iglibneural\neural\IGLibNeural.csproj", "{FBF3C5F7-A0CA-46A1-8973-7689FFFAAEBA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestCopy", "..\unittests\Guest_IGTestCopy\Guest_IGTestCopy.csproj", "{9B8676F4-A6DB-4E27-A423-B4E417C8341B}"
 EndProject
@@ -333,7 +333,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShellBin", "..\shelldev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "..\iglib\external\mathnet-numerics\src\Numerics\Numerics.csproj", "{F5FE0255-4C94-4689-87B3-964FCD8571F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeuralExt", "..\iglib\extensions\iglibneural\neural_ext\IGLibNeuralExt.csproj", "{DA348BA9-F182-4730-B238-6220D9917A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibNeuralExt", "..\iglib\extensions\iglibneural\neural_ext\IGLibNeuralExt.csproj", "{DA348BA9-F182-4730-B238-6220D9917A60}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph", "..\iglib\external\ZedGraph\source\ZedGraph\ZedGraph.csproj", "{638A6DAA-EDAD-43E8-906E-99EB91C45B13}"
 EndProject
@@ -354,6 +354,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventAggregatorTests", "..\iglib\modules\IGLibEventAggregator\EventAggregatorTests\EventAggregatorTests.csproj", "{FCD0C54B-0DC1-4AD1-A7F4-E7A7C5C19B41}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibCoreTests", "..\iglib\modules\IGLibCore\tests\IGLibCoreTests\IGLibCoreTests.csproj", "{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtAppNeurAppBin", "..\shelldev\extensions\ExtAppNeurApp_TEMP_COPY_BEFOREMIGRATION\ExtAppNeurAppBin.csproj", "{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtAppNeurAppBeforeMigration", "..\shelldev\extensions\ExtAppNeurApp_TEMP_COPY_BEFOREMIGRATION\ExtAppNeurAppBeforeMigration.csproj", "{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -3343,6 +3347,70 @@ Global
 		{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 		{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}.Release-Signed|x86.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|Any CPU.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|Any CPU.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|Mixed Platforms.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|x64.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|x64.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|x86.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.ajgor|x86.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|x64.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Debug|x86.Build.0 = Debug|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|x64.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|x64.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|x86.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release|x86.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|x86.ActiveCfg = Release|Any CPU
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917}.Release-Signed|x86.Build.0 = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|Any CPU.Build.0 = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|Mixed Platforms.ActiveCfg = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|Mixed Platforms.Build.0 = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|x64.ActiveCfg = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|x64.Build.0 = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|x86.ActiveCfg = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.ajgor|x86.Build.0 = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|x64.Build.0 = Debug|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|x86.ActiveCfg = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Debug|x86.Build.0 = Debug|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|x64.ActiveCfg = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|x64.Build.0 = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|x86.ActiveCfg = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release|x86.Build.0 = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|Mixed Platforms.ActiveCfg = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|x86.ActiveCfg = Release|x86
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9}.Release-Signed|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3474,6 +3542,8 @@ Global
 		{B426D451-125E-48C5-BB1B-B6CB33A4104A} = {D68D3525-832F-4282-BC21-2A685D7C4AB7}
 		{FCD0C54B-0DC1-4AD1-A7F4-E7A7C5C19B41} = {B426D451-125E-48C5-BB1B-B6CB33A4104A}
 		{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8} = {B426D451-125E-48C5-BB1B-B6CB33A4104A}
+		{838AD9BF-0AEA-4BCF-983B-D15B87E3A917} = {A4287905-2404-41E9-956B-00CED7B54FC8}
+		{59B4A0C7-8E20-4557-92FE-2054A9DFB0F9} = {A4287905-2404-41E9-956B-00CED7B54FC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
