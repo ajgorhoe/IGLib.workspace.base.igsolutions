@@ -366,6 +366,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InitIGLibModules", "..\igli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_initializations", "00_initializations", "{4C3600F5-CDA9-4B5A-9063-434651DBF992}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibScripts", "..\iglib\modules\IGLibScripts\project\IGLibScripts.csproj", "{33A7FD14-F166-441A-A008-89266D74C76E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ajgor|Any CPU = ajgor|Any CPU
@@ -3393,6 +3395,38 @@ Global
 		{F542E941-80BC-4ACB-B114-7742B2C2868F}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{F542E941-80BC-4ACB-B114-7742B2C2868F}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 		{F542E941-80BC-4ACB-B114-7742B2C2868F}.Release-Signed|x86.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|Any CPU.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|Mixed Platforms.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|x64.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|x64.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|x86.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.ajgor|x86.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|x64.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Debug|x86.Build.0 = Debug|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|x64.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|x64.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|x86.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release|x86.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x86.ActiveCfg = Release|Any CPU
+		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3525,6 +3559,7 @@ Global
 		{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8} = {B426D451-125E-48C5-BB1B-B6CB33A4104A}
 		{F542E941-80BC-4ACB-B114-7742B2C2868F} = {4C3600F5-CDA9-4B5A-9063-434651DBF992}
 		{4C3600F5-CDA9-4B5A-9063-434651DBF992} = {D68D3525-832F-4282-BC21-2A685D7C4AB7}
+		{33A7FD14-F166-441A-A008-89266D74C76E} = {103FD0F9-B3B8-4F09-8856-F04A0EBA52DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
