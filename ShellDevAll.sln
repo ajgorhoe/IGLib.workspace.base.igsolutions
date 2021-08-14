@@ -368,6 +368,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_initializations", "00_in
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibScripts", "..\iglib\modules\IGLibScripts\project\IGLibScripts.csproj", "{33A7FD14-F166-441A-A008-89266D74C76E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibNeuralExtFormsSpecial_original", "..\shelldev\lib\extended\LibNeuralExtForms\IGLibNeuralExtFormsSpecial_original.csproj", "{B40A1C81-70FD-42A6-A154-755E15AD0BC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ajgor|Any CPU = ajgor|Any CPU
@@ -3427,6 +3429,38 @@ Global
 		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 		{33A7FD14-F166-441A-A008-89266D74C76E}.Release-Signed|x86.Build.0 = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|Any CPU.Build.0 = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|Mixed Platforms.ActiveCfg = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|Mixed Platforms.Build.0 = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|x64.ActiveCfg = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|x64.Build.0 = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|x86.ActiveCfg = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.ajgor|x86.Build.0 = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|x64.Build.0 = Debug|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|x86.ActiveCfg = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Debug|x86.Build.0 = Debug|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|x64.Build.0 = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|x86.ActiveCfg = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release|x86.Build.0 = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|Mixed Platforms.ActiveCfg = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|Mixed Platforms.Build.0 = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|x86.ActiveCfg = Release|x86
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1}.Release-Signed|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3560,6 +3594,7 @@ Global
 		{F542E941-80BC-4ACB-B114-7742B2C2868F} = {4C3600F5-CDA9-4B5A-9063-434651DBF992}
 		{4C3600F5-CDA9-4B5A-9063-434651DBF992} = {D68D3525-832F-4282-BC21-2A685D7C4AB7}
 		{33A7FD14-F166-441A-A008-89266D74C76E} = {103FD0F9-B3B8-4F09-8856-F04A0EBA52DD}
+		{B40A1C81-70FD-42A6-A154-755E15AD0BC1} = {D7B8D3BD-5A57-4626-802D-A5186D5AAF1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
