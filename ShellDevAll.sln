@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30709.132
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31815.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibForms", "..\iglib\igforms\IGLibForms.csproj", "{50235FC8-A69D-47AE-A557-6518B35CC7C9}"
 EndProject
@@ -188,6 +188,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForgeSh.Video", "..\shelldev\lib_ann\aforge.net\Sources\Video\AForgeSh.Video.csproj", "{C796B903-984D-4736-AFBA-ADFE727441C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint", "..\iglib\external\jint\Jint\Jint.csproj", "{678738DA-F723-4920-B9E5-CAD667104BDA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F542E941-80BC-4ACB-B114-7742B2C2868F} = {F542E941-80BC-4ACB-B114-7742B2C2868F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint.Repl", "..\iglib\external\jint\Jint.Repl\Jint.Repl.csproj", "{A69FD3C5-F2B0-4055-A518-F4173EBA5E4D}"
 EndProject
@@ -330,6 +333,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShellBin", "..\shelldev\igshell\Applications\HashShellBin.csproj", "{62F61D8F-A38F-449C-8D15-52169CAF162E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "..\iglib\external\mathnet-numerics\src\Numerics\Numerics.csproj", "{F5FE0255-4C94-4689-87B3-964FCD8571F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F542E941-80BC-4ACB-B114-7742B2C2868F} = {F542E941-80BC-4ACB-B114-7742B2C2868F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibNeuralExt", "..\iglib\extensions\iglibneural\neural_ext\IGLibNeuralExt.csproj", "{DA348BA9-F182-4730-B238-6220D9917A60}"
 EndProject
