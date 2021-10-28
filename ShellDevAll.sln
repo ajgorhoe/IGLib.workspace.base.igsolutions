@@ -259,7 +259,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnnApp", "..\shelldev\exten
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeurApp", "..\shelldev\extensions\ExtAppNeurApp\NeurApp.csproj", "{C358803D-E1F3-47A9-92A4-53B6FF724BBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtAppNeuralParametricIT", "..\shelldev\extensions_shell\ExtAppNeuralParametric\ExtAppNeuralParametricIT.csproj", "{E66508A6-1045-4945-AAE1-C20C12285CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtAppNeuralParametricIT", "..\shelldev\extensions_shell\ExtAppNeuralParametric\ExtAppNeuralParametricIT.csproj", "{E66508A6-1045-4945-AAE1-C20C12285CBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApplications", "TestApplications", "{2D0D4FFF-0E8E-400E-8C74-A11D1EE88B84}"
 EndProject
@@ -303,7 +303,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestCopy", "..\unit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGShell", "IGShell", "{3A8FFE30-7319-4256-8A79-F34F41A03575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLibShell", "..\shelldev\igshell\IGLibShell\IGLibShell.csproj", "{39E26C5F-2F65-4754-A85D-6159D0940427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibShell", "..\shelldev\igshell\IGLibShell\IGLibShell.csproj", "{39E26C5F-2F65-4754-A85D-6159D0940427}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestQuick", "..\unittests\Guest_IGTestQuick\Guest_IGTestQuick.csproj", "{F6BE00B5-8C75-4F8A-A4C6-C510A7AFD8B3}"
 EndProject
@@ -313,11 +313,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGLibApplications", "IGLibA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGLibApplications_Bin", "IGLibApplications_Bin", "{22B09708-D074-4556-9FD5-8D32D80DBD7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShell", "..\shelldev\igshell\Applications\Guest_IGShell.csproj", "{841FA893-8609-46FA-89B9-4F70D7E09786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShell", "..\shelldev\igshell\Applications\Guest_IGShell.csproj", "{841FA893-8609-46FA-89B9-4F70D7E09786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashForm", "..\shelldev\igshell\Applications\HashForm.csproj", "{247CB789-4DBB-485E-8DAC-6AA66DA341AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashForm", "..\shelldev\igshell\Applications\HashForm.csproj", "{247CB789-4DBB-485E-8DAC-6AA66DA341AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShell", "..\shelldev\igshell\Applications\HashShell.csproj", "{C03FDBAC-02D0-4721-87B9-8145D144193D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShell", "..\shelldev\igshell\Applications\HashShell.csproj", "{C03FDBAC-02D0-4721-87B9-8145D144193D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShellBin", "..\shelldev\igshell\Applications\Guest_IGShellBin.csproj", "{A9FA7553-5835-4511-90C8-E39FB2B5A068}"
 EndProject
@@ -365,6 +365,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibScripts", "..\iglib\modules\IGLibScripts\project\IGLibScripts.csproj", "{33A7FD14-F166-441A-A008-89266D74C76E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibNeuralExtFormsSpecial", "..\shelldev\lib\extended\LibNeuralExtForms\IGLibNeuralExtFormsSpecial.csproj", "{8B4BF239-FD23-4991-A63A-A8963ABEB301}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShell_NEW", "..\shelldev\igshell\Applications\Guest_IGShell_NEW.csproj", "{78A19016-7FCB-426D-B616-E61CD2F23354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -3400,6 +3402,38 @@ Global
 		{8B4BF239-FD23-4991-A63A-A8963ABEB301}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{8B4BF239-FD23-4991-A63A-A8963ABEB301}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 		{8B4BF239-FD23-4991-A63A-A8963ABEB301}.Release-Signed|x86.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|Any CPU.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|Mixed Platforms.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|x64.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|x64.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|x86.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.ajgor|x86.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|x64.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Debug|x86.Build.0 = Debug|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|x64.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|x64.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|x86.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release|x86.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|x86.ActiveCfg = Release|Any CPU
+		{78A19016-7FCB-426D-B616-E61CD2F23354}.Release-Signed|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3532,6 +3566,7 @@ Global
 		{4C3600F5-CDA9-4B5A-9063-434651DBF992} = {D68D3525-832F-4282-BC21-2A685D7C4AB7}
 		{33A7FD14-F166-441A-A008-89266D74C76E} = {103FD0F9-B3B8-4F09-8856-F04A0EBA52DD}
 		{8B4BF239-FD23-4991-A63A-A8963ABEB301} = {D7B8D3BD-5A57-4626-802D-A5186D5AAF1F}
+		{78A19016-7FCB-426D-B616-E61CD2F23354} = {A1CB03CC-D5F1-40C3-8AD3-542EA5D8D7FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
