@@ -8,11 +8,11 @@ directories.
 
 The only solution that remained used during refactoring is 
   ../ShellDevAll.sln
-Reduced solutions will be derived from that one when refacttoring is finished
-(or maybe not) and will neot be derived from the old versions contained in
-this directory (which may be difficult because of changes in directory
-structure).
+This solution contains a larger subser of projects that are currently used.
 
-When not needed anz more, these old copies should be removed.
+Reduced solutions may be derived from that one when refactoring is finished
+(or maybe not) and will probably not be derived from the old versions contained in this directory (which may be difficult because of changes in directory structure).
+
+When not needed any more, these old copies should be removed.
 
 
