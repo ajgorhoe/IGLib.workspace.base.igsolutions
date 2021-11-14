@@ -319,11 +319,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashForm", "..\shelldev\igs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShell", "..\shelldev\igshell\Applications\HashShell.csproj", "{C03FDBAC-02D0-4721-87B9-8145D144193D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGShellBin", "..\shelldev\igshell\Applications\Guest_IGShellBin.csproj", "{A9FA7553-5835-4511-90C8-E39FB2B5A068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShellBin", "..\shelldev\igshell\Applications\Guest_IGShellBin.csproj", "{A9FA7553-5835-4511-90C8-E39FB2B5A068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashFormBin", "..\shelldev\igshell\Applications\HashFormBin.csproj", "{24DE81F4-F636-4D80-BC15-424EA17E12D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashFormBin", "..\shelldev\igshell\Applications\HashFormBin.csproj", "{24DE81F4-F636-4D80-BC15-424EA17E12D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashShellBin", "..\shelldev\igshell\Applications\HashShellBin.csproj", "{62F61D8F-A38F-449C-8D15-52169CAF162E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShellBin", "..\shelldev\igshell\Applications\HashShellBin.csproj", "{62F61D8F-A38F-449C-8D15-52169CAF162E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "..\iglib\external\mathnet-numerics\src\Numerics\Numerics.csproj", "{F5FE0255-4C94-4689-87B3-964FCD8571F6}"
 EndProject
