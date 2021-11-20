@@ -303,7 +303,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestCopy", "..\unit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGShell", "IGShell", "{3A8FFE30-7319-4256-8A79-F34F41A03575}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibShell", "..\shelldev\igshell\IGLibShell\IGLibShell.csproj", "{39E26C5F-2F65-4754-A85D-6159D0940427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibShell", "..\iglibapp\igshell\IGLibShell\IGLibShell.csproj", "{39E26C5F-2F65-4754-A85D-6159D0940427}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_IGTestQuick", "..\unittests\Guest_IGTestQuick\Guest_IGTestQuick.csproj", "{F6BE00B5-8C75-4F8A-A4C6-C510A7AFD8B3}"
 EndProject
@@ -313,17 +313,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGLibApplications", "IGLibA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGLibApplications_Bin", "IGLibApplications_Bin", "{22B09708-D074-4556-9FD5-8D32D80DBD7C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShell", "..\shelldev\igshell\Applications\Guest_IGShell.csproj", "{841FA893-8609-46FA-89B9-4F70D7E09786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShell", "..\iglibapp\igshell\Applications\Guest_IGShell.csproj", "{841FA893-8609-46FA-89B9-4F70D7E09786}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashForm", "..\shelldev\igshell\Applications\HashForm.csproj", "{247CB789-4DBB-485E-8DAC-6AA66DA341AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashForm", "..\iglibapp\igshell\Applications\HashForm.csproj", "{247CB789-4DBB-485E-8DAC-6AA66DA341AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShell", "..\shelldev\igshell\Applications\HashShell.csproj", "{C03FDBAC-02D0-4721-87B9-8145D144193D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShell", "..\iglibapp\igshell\Applications\HashShell.csproj", "{C03FDBAC-02D0-4721-87B9-8145D144193D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShellBin", "..\shelldev\igshell\Applications\Guest_IGShellBin.csproj", "{A9FA7553-5835-4511-90C8-E39FB2B5A068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_IGShellBin", "..\iglibapp\igshell\Applications\Guest_IGShellBin.csproj", "{A9FA7553-5835-4511-90C8-E39FB2B5A068}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashFormBin", "..\shelldev\igshell\Applications\HashFormBin.csproj", "{24DE81F4-F636-4D80-BC15-424EA17E12D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashFormBin", "..\iglibapp\igshell\Applications\HashFormBin.csproj", "{24DE81F4-F636-4D80-BC15-424EA17E12D1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShellBin", "..\shelldev\igshell\Applications\HashShellBin.csproj", "{62F61D8F-A38F-449C-8D15-52169CAF162E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashShellBin", "..\iglibapp\igshell\Applications\HashShellBin.csproj", "{62F61D8F-A38F-449C-8D15-52169CAF162E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "..\iglib\external\mathnet-numerics\src\Numerics\Numerics.csproj", "{F5FE0255-4C94-4689-87B3-964FCD8571F6}"
 EndProject
