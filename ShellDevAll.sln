@@ -193,7 +193,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint.Repl", "..\iglib\exter
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibrariesExtended", "ExternalLibrariesExtended", "{7D3278C7-CFDD-4084-B514-7F2DA2A142EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuronDotNet", "..\shelldev\lib\externalextended\NeuronDotNetGPL\source\Core\NeuronDotNet.csproj", "{D5B56684-0C33-4195-B3D6-D1576B739E42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuronDotNet", "..\iglibexternal\IGLibExternal\NeuronDotNet\Core\NeuronDotNet.csproj", "{D5B56684-0C33-4195-B3D6-D1576B739E42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{B2CDC61D-777A-45A1-999E-419270CF55E2}"
 	ProjectSection(SolutionItems) = preProject
