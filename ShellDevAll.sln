@@ -3538,6 +3538,6 @@ Global
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = ..\shelldev\0guests\ferdo\IGLibShell\IGLibShell.csproj
+		StartupItem = "..\iglibapp\igshell\IGLibShell\IGLibShell.csproj"
 	EndGlobalSection
 EndGlobal
