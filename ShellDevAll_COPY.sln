@@ -23,14 +23,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib", "..\iglib\igbase\IG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00Binaries", "00Binaries", "{BB94B3C5-27D9-4F34-868D-CA8CDA462B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSourceOriginal", "..\..\bin\projects_dll\source\00DllSourceOriginal\00DllSourceOriginal.csproj", "{AA2E9C74-61EB-4AF7-8703-2691B49765E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSourceOriginal", "..\bin\projects_dll\source\00DllSourceOriginal\00DllSourceOriginal.csproj", "{AA2E9C74-61EB-4AF7-8703-2691B49765E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_Generator_Shell", "..\..\bin\projects_dll\00DllSource_Shell\00DllSource_Generator_Shell.csproj", "{4941848E-185B-44BD-ACDE-E05F26506804}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_Generator_Shell", "..\bin\projects_dll\00DllSource_Shell\00DllSource_Generator_Shell.csproj", "{4941848E-185B-44BD-ACDE-E05F26506804}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AA2E9C74-61EB-4AF7-8703-2691B49765E9} = {AA2E9C74-61EB-4AF7-8703-2691B49765E9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_TestProject_Shell", "..\..\bin\projects_dll\00DllSource_Shell\00DllSource_TestProject_Shell.csproj", "{25C24FFF-F073-4FA4-B02E-902A0DB615A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_TestProject_Shell", "..\bin\projects_dll\00DllSource_Shell\00DllSource_TestProject_Shell.csproj", "{25C24FFF-F073-4FA4-B02E-902A0DB615A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevelopCobik", "DevelopCobik", "{0F29E35C-9CD1-475D-904C-3ABC506BEB0A}"
 EndProject
