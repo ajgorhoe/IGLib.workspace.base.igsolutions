@@ -23,14 +23,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib", "..\iglib\igbase\IG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00Binaries", "00Binaries", "{BB94B3C5-27D9-4F34-868D-CA8CDA462B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSourceOriginal", "..\bin\projects_dll\source\00DllSourceOriginal\00DllSourceOriginal.csproj", "{AA2E9C74-61EB-4AF7-8703-2691B49765E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00DllSourceOriginal", "..\bin\projects_dll\source\00DllSourceOriginal\00DllSourceOriginal.csproj", "{AA2E9C74-61EB-4AF7-8703-2691B49765E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_Generator_Shell", "..\bin\projects_dll\00DllSource_Shell\00DllSource_Generator_Shell.csproj", "{4941848E-185B-44BD-ACDE-E05F26506804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00DllSource_Generator_Shell", "..\bin\projects_dll\00DllSource_Shell\00DllSource_Generator_Shell.csproj", "{4941848E-185B-44BD-ACDE-E05F26506804}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AA2E9C74-61EB-4AF7-8703-2691B49765E9} = {AA2E9C74-61EB-4AF7-8703-2691B49765E9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00DllSource_TestProject_Shell", "..\bin\projects_dll\00DllSource_Shell\00DllSource_TestProject_Shell.csproj", "{25C24FFF-F073-4FA4-B02E-902A0DB615A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00DllSource_TestProject_Shell", "..\bin\projects_dll\00DllSource_Shell\00DllSource_TestProject_Shell.csproj", "{25C24FFF-F073-4FA4-B02E-902A0DB615A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevelopCobik", "DevelopCobik", "{0F29E35C-9CD1-475D-904C-3ABC506BEB0A}"
 EndProject
@@ -209,51 +209,51 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibNeuralExtSpecial", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibShellExtSpecial", "..\shelldev\lib\extended\LibShellExt\IGLibShellExtSpecial.csproj", "{9BF93378-2777-4EF4-B4BF-B5760F385DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibShellExtExtIT", "..\shelldev\extensions\ExtShellLibIT\LibShellExtExtIT.csproj", "{7A513639-A86E-4630-BEFD-E1BCC052050C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibShellExtExtIT", "..\shelldev\extensions\ExtShellLibIT\LibShellExtExtIT.csproj", "{7A513639-A86E-4630-BEFD-E1BCC052050C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guests", "Guests", "{9B32C8DA-F10B-4D6C-8079-EE4B21916FBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_Marko_Petek_App", "..\shelldev\0guests\marko_petek\Guest_Marko_Petek_App\Guest_Marko_Petek_App.csproj", "{57A4DF80-F29C-45A2-B70E-CAFFCE3D46A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_Marko_Petek_App", "..\shelldev\0guests\marko_petek\Guest_Marko_Petek_App\Guest_Marko_Petek_App.csproj", "{57A4DF80-F29C-45A2-B70E-CAFFCE3D46A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_Marko_Petek_Lib", "..\shelldev\0guests\marko_petek\Guest_Marko_Petek_Lib\Guest_Marko_Petek_Lib.csproj", "{CD34D330-7215-4F02-988A-C9799E2D0CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_Marko_Petek_Lib", "..\shelldev\0guests\marko_petek\Guest_Marko_Petek_Lib\Guest_Marko_Petek_Lib.csproj", "{CD34D330-7215-4F02-988A-C9799E2D0CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_Marko_Petek_LibExt", "..\shelldev\0guests\marko_petek\extended\Guest_Marko_Petek_LibExt\Guest_Marko_Petek_LibExt.csproj", "{0F7CDA03-DBC2-44B6-8A8E-9293CEB42E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_Marko_Petek_LibExt", "..\shelldev\0guests\marko_petek\extended\Guest_Marko_Petek_LibExt\Guest_Marko_Petek_LibExt.csproj", "{0F7CDA03-DBC2-44B6-8A8E-9293CEB42E62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guest_Marko_Petek_AppExt", "..\shelldev\0guests\marko_petek\extended\Guest_Marko_Petek_AppExt\Guest_Marko_Petek_AppExt.csproj", "{0E7F3202-B70C-4089-BBAF-1575B7A1B644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guest_Marko_Petek_AppExt", "..\shelldev\0guests\marko_petek\extended\Guest_Marko_Petek_AppExt\Guest_Marko_Petek_AppExt.csproj", "{0E7F3202-B70C-4089-BBAF-1575B7A1B644}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unused", "Unused", "{B7EE56C1-A9CB-485F-8BEC-DF1501F849C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtShellIT", "..\shelldev\extensions\ExtShellIT\ExtShellIT.csproj", "{10A29B9B-76C1-45F5-9B10-A3D99155B48A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtShellIT", "..\shelldev\extensions\ExtShellIT\ExtShellIT.csproj", "{10A29B9B-76C1-45F5-9B10-A3D99155B48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtNeuralAppIT", "..\shelldev\extensions_shell\ExtNeuralApp\ExtNeuralAppIT.csproj", "{044AD15D-1AFF-4E6A-A731-0A92B002C2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtNeuralAppIT", "..\shelldev\extensions_shell\ExtNeuralApp\ExtNeuralAppIT.csproj", "{044AD15D-1AFF-4E6A-A731-0A92B002C2DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellIT", "..\shelldev\extensions_shell\shell\Shell\ShellIT.csproj", "{4984AD1B-EEA3-423C-9D4C-7F9466AFE6A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellAppIT", "..\shelldev\extensions_shell\shell\ShellApp\ShellAppIT.csproj", "{16127951-3592-4428-8686-DC168B23547E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellAppIT", "..\shelldev\extensions_shell\shell\ShellApp\ShellAppIT.csproj", "{16127951-3592-4428-8686-DC168B23547E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDeleteLater", "ToDeleteLater", "{154712D8-9210-4E3E-90A5-A069AC2CDC46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtAppIJSIT", "..\shelldev\extensions_shell\ExtAppIJS\ExtAppIJSIT.csproj", "{4FC939DA-8634-49E5-9D92-EAB34BC4A465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtAppIJSIT", "..\shelldev\extensions_shell\ExtAppIJS\ExtAppIJSIT.csproj", "{4FC939DA-8634-49E5-9D92-EAB34BC4A465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtTestIgorIT", "..\shelldev\extensions_shell\ExtTestIgor\ExtTestIgorIT.csproj", "{46B3CE34-0908-42C7-B834-ADF224ECAE13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtTestIgorIT", "..\shelldev\extensions_shell\ExtTestIgor\ExtTestIgorIT.csproj", "{46B3CE34-0908-42C7-B834-ADF224ECAE13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtTestTadejIT", "..\shelldev\extensions_shell\ExtTestTadej\ExtTestTadejIT.csproj", "{E6EFADCC-42C8-43FA-8ECD-9AC96FA14372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtTestTadejIT", "..\shelldev\extensions_shell\ExtTestTadej\ExtTestTadejIT.csproj", "{E6EFADCC-42C8-43FA-8ECD-9AC96FA14372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralAppIT", "..\shelldev\extensions_shell\shell\NeuralApp\NeuralAppIT.csproj", "{DD9DA1C2-BEA6-48F8-A52E-33A5F5C540DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeuralAppIT", "..\shelldev\extensions_shell\shell\NeuralApp\NeuralAppIT.csproj", "{DD9DA1C2-BEA6-48F8-A52E-33A5F5C540DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellAppMessyIT", "..\shelldev\extensions_shell\shell\ShellAppMess\ShellAppMessyIT.csproj", "{59D78FEE-DB46-408C-A209-0E873BF5F315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellAppMessyIT", "..\shelldev\extensions_shell\shell\ShellAppMess\ShellAppMessyIT.csproj", "{59D78FEE-DB46-408C-A209-0E873BF5F315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestShell_IgorIT", "..\shelldev\extensions_shell\shell\Test_Igor\TestShell_IgorIT.csproj", "{844AC52E-CB04-4AA8-BBA1-FE3056768FD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestShell_IgorIT", "..\shelldev\extensions_shell\shell\Test_Igor\TestShell_IgorIT.csproj", "{844AC52E-CB04-4AA8-BBA1-FE3056768FD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestShell_TadejIT", "..\shelldev\extensions_shell\shell\Test_Tadej\TestShell_TadejIT.csproj", "{81F9A670-CDF7-4E0A-BF50-563312366931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestShell_TadejIT", "..\shelldev\extensions_shell\shell\Test_Tadej\TestShell_TadejIT.csproj", "{81F9A670-CDF7-4E0A-BF50-563312366931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppIT", "..\shelldev\extensions_shell\shell\TestApp\TestAppIT.csproj", "{2C81F978-B3C7-4C46-894F-039D3533C194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppIT", "..\shelldev\extensions_shell\shell\TestApp\TestAppIT.csproj", "{2C81F978-B3C7-4C46-894F-039D3533C194}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibUnused", "LibUnused", "{5B298A32-3BC1-4F34-A29D-E89AC6A7197C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCommonIT", "..\shelldev\lib\LibCommon\LibCommonIT.csproj", "{0E2E58A9-DD4B-4FAF-87E6-7B0F06C53AFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibCommonIT", "..\shelldev\lib\LibCommon\LibCommonIT.csproj", "{0E2E58A9-DD4B-4FAF-87E6-7B0F06C53AFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSim", "..\shelldev\extensions\LibSim\LibSim.csproj", "{F5E729F5-4B10-4015-B259-F12D7CD4F574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSim", "..\shelldev\extensions\LibSim\LibSim.csproj", "{F5E729F5-4B10-4015-B259-F12D7CD4F574}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnnApp", "..\shelldev\extensions\ExtAppAnnApp\AnnApp.csproj", "{2D1D1D0F-58C5-4E9B-853E-7C1E89DCEF14}"
 EndProject
@@ -263,9 +263,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtAppNeuralParametricIT", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApplications", "TestApplications", "{2D0D4FFF-0E8E-400E-8C74-A11D1EE88B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtShellAppIT", "..\shelldev\extensions_shell\ExtShellApp\ExtShellAppIT.csproj", "{2D5AC443-465B-4105-AD13-7B04875A52E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtShellAppIT", "..\shelldev\extensions_shell\ExtShellApp\ExtShellAppIT.csproj", "{2D5AC443-465B-4105-AD13-7B04875A52E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtShellAppExtIT", "..\shelldev\extensions_shell\ExtShellAppExt\ExtShellAppExtIT.csproj", "{E0A599EE-0ED9-4C28-8732-DFBA0B155682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtShellAppExtIT", "..\shelldev\extensions_shell\ExtShellAppExt\ExtShellAppExtIT.csproj", "{E0A599EE-0ED9-4C28-8732-DFBA0B155682}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGSandBox", "IGSandBox", "{4FAF8FC0-3F94-4A32-B746-8C518E28309A}"
 EndProject
@@ -281,7 +281,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_ludecomp_McCaffrey", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00CShell", "00CShell", "{5D0A0F57-2677-4B37-AB50-7F1662DD42F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGShellCShell", "..\shelldev\repl\CShellWotkspaces\IGLibCShell\IGShellCShell.csproj", "{2B76F038-695D-4A24-AD51-D5DBE03DC5FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGShellCShell", "..\shelldev\repl\CShellWotkspaces\IGLibCShell\IGShellCShell.csproj", "{2B76F038-695D-4A24-AD51-D5DBE03DC5FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CShell", "CShell", "{7FFA4DFA-9E93-48F4-A8EA-6A0E81F23E77}"
 EndProject
