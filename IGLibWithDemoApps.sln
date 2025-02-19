@@ -117,7 +117,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph", "..\iglib\extern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph.WinForms", "..\iglib\external\ZedGraph\source\ZedGraph.WinForms\ZedGraph.WinForms.csproj", "{8F81AE7F-B848-4A6A-8453-A45F8D37ADB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibCore", "..\iglib\modules\IGLibCore\src\IGLibCore.csproj", "{AAA3E637-50AE-4F42-9771-A34975DBB3F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib.Core", "..\iglib\modules\IGLibCore\src\IGLib.Core\IGLib.Core.csproj", "{AAA3E637-50AE-4F42-9771-A34975DBB3F0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F542E941-80BC-4ACB-B114-7742B2C2868F} = {F542E941-80BC-4ACB-B114-7742B2C2868F}
 	EndProjectSection
@@ -134,7 +134,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleTests", "ModuleTests"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventAggregatorTests", "..\iglib\modules\IGLibEventAggregator\EventAggregatorTests\EventAggregatorTests.csproj", "{FCD0C54B-0DC1-4AD1-A7F4-E7A7C5C19B41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibCoreTests", "..\iglib\modules\IGLibCore\tests\IGLibCoreTests\IGLibCoreTests.csproj", "{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib.Core.Tests", "..\iglib\modules\IGLibCore\test\IGLib.Core.Tests\IGLib.Core.Tests.csproj", "{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationsIGLib", "ApplicationsIGLib", "{F8D7C772-C867-4C88-B305-0E888096CEA8}"
 EndProject

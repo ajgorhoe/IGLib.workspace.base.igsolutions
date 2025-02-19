@@ -331,7 +331,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph", "..\iglib\extern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph.WinForms", "..\iglib\external\ZedGraph\source\ZedGraph.WinForms\ZedGraph.WinForms.csproj", "{8F81AE7F-B848-4A6A-8453-A45F8D37ADB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibCore", "..\iglib\modules\IGLibCore\src\IGLibCore.csproj", "{AAA3E637-50AE-4F42-9771-A34975DBB3F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib.Core", "..\iglib\modules\IGLibCore\src\IGLib.Core\IGLib.Core.csproj", "{AAA3E637-50AE-4F42-9771-A34975DBB3F0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F542E941-80BC-4ACB-B114-7742B2C2868F} = {F542E941-80BC-4ACB-B114-7742B2C2868F}
 	EndProjectSection
@@ -348,7 +348,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleTests", "ModuleTests"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventAggregatorTests", "..\iglib\modules\IGLibEventAggregator\EventAggregatorTests\EventAggregatorTests.csproj", "{FCD0C54B-0DC1-4AD1-A7F4-E7A7C5C19B41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibCoreTests", "..\iglib\modules\IGLibCore\tests\IGLibCoreTests\IGLibCoreTests.csproj", "{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLib.Core.Tests", "..\iglib\modules\IGLibCore\test\IGLib.Core.Tests\IGLib.Core.Tests.csproj", "{EE6F21DB-5381-49A1-BFA4-C679DD33ECA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationsIGLib", "ApplicationsIGLib", "{F8D7C772-C867-4C88-B305-0E888096CEA8}"
 EndProject
@@ -367,6 +367,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00ParticleSwarmFoidl", "..\iglib\external\ParticleSwarmFoidl\src\ParticleSwarmFoidl\00ParticleSwarmFoidl.csproj", "{A3D0F8C0-3920-4CB1-AE87-BD38DCF1D687}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00ParticleSwarmFoidlNew", "..\iglib\external\ParticleSwarmFoidl\src\ParticleSwarmFoidlNew\00ParticleSwarmFoidlNew.csproj", "{363A3269-9018-4ED3-AEAA-ACA92D19575E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00ParticleSwarmFoidlModified", "..\iglib\external\ParticleSwarmFoidl\src\ParticleSwarmFoidlModified\00ParticleSwarmFoidlModified.csproj", "{8D9D8C6D-7631-4C04-9203-C373E91F1B33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -3442,6 +3444,38 @@ Global
 		{363A3269-9018-4ED3-AEAA-ACA92D19575E}.Release-Signed|x64.Build.0 = Release|Any CPU
 		{363A3269-9018-4ED3-AEAA-ACA92D19575E}.Release-Signed|x86.ActiveCfg = Release|Any CPU
 		{363A3269-9018-4ED3-AEAA-ACA92D19575E}.Release-Signed|x86.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|x64.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|x64.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|x86.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.ajgor|x86.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|x64.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Debug|x86.Build.0 = Debug|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|x64.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|x64.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|x86.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release|x86.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|Any CPU.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|Mixed Platforms.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|x64.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|x64.Build.0 = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|x86.ActiveCfg = Release|Any CPU
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33}.Release-Signed|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3575,6 +3609,7 @@ Global
 		{8B4BF239-FD23-4991-A63A-A8963ABEB301} = {D7B8D3BD-5A57-4626-802D-A5186D5AAF1F}
 		{A3D0F8C0-3920-4CB1-AE87-BD38DCF1D687} = {56DDCD18-254B-4F95-AD36-AB87D817FFBE}
 		{363A3269-9018-4ED3-AEAA-ACA92D19575E} = {56DDCD18-254B-4F95-AD36-AB87D817FFBE}
+		{8D9D8C6D-7631-4C04-9203-C373E91F1B33} = {56DDCD18-254B-4F95-AD36-AB87D817FFBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF0C0F-3AA4-4C30-B227-B7B92EDED87B}
