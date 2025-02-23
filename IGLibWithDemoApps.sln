@@ -45,9 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AforgeSh.Imaging", "..\shel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForgeSh.Video", "..\shelldev\lib_ann\aforge.net\Sources\Video\AForgeSh.Video.csproj", "{C796B903-984D-4736-AFBA-ADFE727441C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint", "..\iglib\external\jint\Jint\Jint.csproj", "{678738DA-F723-4920-B9E5-CAD667104BDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint", "..\iglibexternal\IGLibExternal\Jint\Jint\Jint.csproj", "{678738DA-F723-4920-B9E5-CAD667104BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint.Repl", "..\iglib\external\jint\Jint.Repl\Jint.Repl.csproj", "{A69FD3C5-F2B0-4055-A518-F4173EBA5E4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jint.Repl", "..\iglibexternal\IGLibExternal\Jint\Jint.Repl\Jint.Repl.csproj", "{A69FD3C5-F2B0-4055-A518-F4173EBA5E4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibrariesExtended", "ExternalLibrariesExtended", "{7D3278C7-CFDD-4084-B514-7F2DA2A142EC}"
 EndProject
