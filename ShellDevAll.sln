@@ -327,9 +327,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "..\iglibexterna
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGLibNeuralExt", "..\iglib\extensions\iglibneural\neural_ext\IGLibNeuralExt.csproj", "{DA348BA9-F182-4730-B238-6220D9917A60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph", "..\iglib\external\ZedGraph\source\ZedGraph\ZedGraph.csproj", "{638A6DAA-EDAD-43E8-906E-99EB91C45B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph", "..\iglibexternal\IGLibExternal\ZedGraph\source\ZedGraph\ZedGraph.csproj", "{638A6DAA-EDAD-43E8-906E-99EB91C45B13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph.WinForms", "..\iglib\external\ZedGraph\source\ZedGraph.WinForms\ZedGraph.WinForms.csproj", "{8F81AE7F-B848-4A6A-8453-A45F8D37ADB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZedGraph.WinForms", "..\iglibexternal\IGLibExternal\ZedGraph\source\ZedGraph.WinForms\ZedGraph.WinForms.csproj", "{8F81AE7F-B848-4A6A-8453-A45F8D37ADB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IGLib", "IGLib", "{D68D3525-832F-4282-BC21-2A685D7C4AB7}"
 EndProject
