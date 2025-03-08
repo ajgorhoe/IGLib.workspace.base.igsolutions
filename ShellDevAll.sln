@@ -391,7 +391,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLib.SandboxCore", "..\IGL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLib.Sandbox.Graphics3D", "..\IGLibSandbox\src\IGLib.Sandbox.Graphics3D\IGLib.Sandbox.Graphics3D.csproj", "{EF08702A-5B0E-4318-B23B-31F0C1531895}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AForge_OldLocations_ToRemove", "AForge_OldLocations_ToRemove", "{8C59630B-CD37-40CA-A7D4-6F813C7E5017}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AForge_OldLocations", "AForge_OldLocations", "{8C59630B-CD37-40CA-A7D4-6F813C7E5017}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AForge", "AForge", "{6F3C77AD-CD34-4362-97EC-B86C0AC75BE0}"
 EndProject
