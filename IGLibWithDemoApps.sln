@@ -127,13 +127,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGLib.Core.Tests", "..\IGLi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AForge_Old_Referenced", "AForge_Old_Referenced", "{44475652-D8C9-441B-BB50-E6FD1578CDF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\iglib\externalextended\ann\aforge.net\Sources\Core\Core.csproj", "{AC9A8EEE-A669-40BF-814C-77B9A4C0A47B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\iglib\externalextended\ann\aforge.net\Sources\Core\AForge.Core.csproj", "{AC9A8EEE-A669-40BF-814C-77B9A4C0A47B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genetic", "..\iglib\externalextended\ann\aforge.net\Sources\Genetic\Genetic.csproj", "{A15AB193-655D-4BB0-A921-CBB324E739C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genetic", "..\iglib\externalextended\ann\aforge.net\Sources\Genetic\AForge.Genetic.csproj", "{A15AB193-655D-4BB0-A921-CBB324E739C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "..\iglib\externalextended\ann\aforge.net\Sources\Math\Math.csproj", "{D7C686DB-EF64-469C-A172-6A6F3BAA72C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "..\iglib\externalextended\ann\aforge.net\Sources\Math\AForge.Math.csproj", "{D7C686DB-EF64-469C-A172-6A6F3BAA72C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neuro", "..\iglib\externalextended\ann\aforge.net\Sources\Neuro\Neuro.csproj", "{DD479664-5F13-4945-955F-FA90D22A9A2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neuro", "..\iglib\externalextended\ann\aforge.net\Sources\Neuro\AForge.Neuro.csproj", "{DD479664-5F13-4945-955F-FA90D22A9A2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00ParticleSwarmFoidlModified", "..\iglib\external\ParticleSwarmFoidl\src\ParticleSwarmFoidlModified\00ParticleSwarmFoidlModified.csproj", "{40A43A6E-4D3F-4C58-8B49-2A7B9826E3F5}"
 EndProject
