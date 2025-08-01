@@ -1,6 +1,7 @@
 # About this Repository
 
 Copyright (c) Igor Grešovnik
+See LICENSE.md at https://github.com/ajgorhoe/IGLib.workspace.base.igsolutions
 
 This repository is part of the Investigative Generic Library (IGLib).
 
